@@ -3,10 +3,10 @@ import mh1 from "../assets/shivamh.png"
 import mh2 from "../assets/shivamc.png"
 import mh3 from "../assets/shivamj.png"
 import mh4 from "../assets/shivamr.png"
-import mh5 from "../assets/shivamr.png"
-import mh6 from "../assets/shivamr.png"
-import mh7 from "../assets/shivamr.png"
-import mh8 from "../assets/shivamr.png"
+import mh5 from "../assets/shivamt.png"
+import mh6 from "../assets/shivamg.png"
+import mh7 from "../assets/shivamh.png"
+import mh8 from "../assets/shivamn.png"
 const MySkills = () => {
   return (
     <div className="bg-black text-white w-full">
