@@ -1,12 +1,5 @@
 import React from 'react'
-// import {Route, Routes } from 'react-router-dom'
-// import Navbar from './Components/Navbar'
 import About from './Pages/About'
-// import Banner from './Components/Banner'
-// import Education from './Components/Education'
-// import MySkills from './Components/MySkills'
-// import MyProjects from './Components/MyProjects'
-// import Footer from './Components/Footer'
 import Skills from './Pages/Skills'
 import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
@@ -23,6 +16,9 @@ const App = () => {
     <Routes>
     
       <Route path='/' element={<About/>} />
+      <Route path='/Skills' element={<Skills/>} />
+      <Route path='/Projects' element={<Projects/>} />
+      <Route path='/Contact' element={<Contact/>} />
       
     </Routes>
    
